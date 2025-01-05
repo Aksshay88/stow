@@ -9,7 +9,6 @@ fi
 # User to configure
 TARGET_USER=${1:-$(whoami)}  # Default to the current user if no argument is passed
 
-# Define the dotfiles repository and the directory for dotfiles
 DOTFILES_REPO="https://github.com/aksshay88/stow.git"
 DOTFILES_DIR="/home/$TARGET_USER/dotfiles"
 
