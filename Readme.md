@@ -71,27 +71,26 @@ Don't worry if you forget the username; it'll default to your current user (but 
 
 What Happens When You Run This? 🤔
 
-    stow will create symbolic links for all your configuration files in your home directory. It’s like magic, but safer. 🎩✨
-    You’ll be equipped with Neovim, kitty, tmux, and any other configuration wizardry I've deemed worthy.
-    It’s fully customizable – tweak it as needed, and feel free to make it your own. 🤹‍♀️
+stow will create symbolic links for all your configuration files in your home directory. It’s like magic, but safer. 🎩✨
+You’ll be equipped with Neovim, kitty, tmux, and any other configuration wizardry I've deemed worthy.
+It’s fully customizable – tweak it as needed, and feel free to make it your own. 🤹‍♀️
 
 How to Tweak It 🤔
 
 You can customize things with the following:
 
-    Add your own configurations: Got some cool setup files? Drop them in the appropriate directory (e.g., ~/.config/nvim/) and run the stow process again.
-    Edit the scripts: If you want to change which configurations are stowed, just tweak the install_dotfiles.sh script to fit your needs. It’s all yours!
+Add your own configurations: Got some cool setup files? Drop them in the appropriate directory (e.g., ~/.config/nvim/) and run the stow process again.
+Edit the scripts: If you want to change which configurations are stowed, just tweak the install_dotfiles.sh script to fit your needs. It’s all yours!
 
 Troubleshooting 😱
 Something’s not working? Here's the most common issues:
 
-    stow is not installed: Did you follow the installation instructions above? If not, please do.
-    Missing permissions: You might need to run the script with sudo if you’re installing for another user or making system-wide changes. Don’t panic, you’ve got this! 💪
-    Overwritten files: If you accidentally overwrite something important, don’t panic! That’s what backups are for, right? If you didn’t backup, I recommend a nice, long talk with the backup gods. 😬
+stow is not installed: Did you follow the installation instructions above? If not, please do.
+Missing permissions: You might need to run the script with sudo if you’re installing for another user or making system-wide changes. Don’t panic, you’ve got this! 💪
+Overwritten files: If you accidentally overwrite something important, don’t panic! That’s what backups are for, right? If you didn’t backup, I recommend a nice, long talk with the backup gods. 😬
 
 ## License 📜
 
-License 📜
 
 This repository is open source and free to use, but if you somehow manage to break your system with it, I take no responsibility. Remember to always stow responsibly.
 
