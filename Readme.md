@@ -69,20 +69,20 @@ sudo ./install_dotfiles.sh username
 
 Don't worry if you forget the username; it'll default to your current user (but you might want to double-check before doing that). 😉
 
-What Happens When You Run This? 🤔
+## What Happens When You Run This? 🤔
 
-stow will create symbolic links for all your configuration files in your home directory. It’s like magic, but safer. 🎩✨
-You’ll be equipped with Neovim, kitty, tmux, and any other configuration wizardry I've deemed worthy.
-It’s fully customizable – tweak it as needed, and feel free to make it your own. 🤹‍♀️
+  stow will create symbolic links for all your configuration files in your home directory. It’s like magic, but safer. 🎩✨
+  You’ll be equipped with Neovim, kitty, tmux, and any other configuration wizardry I've deemed worthy.
+  It’s fully customizable – tweak it as needed, and feel free to make it your own. 🤹‍♀️
 
-How to Tweak It 🤔
+## How to Tweak It 🤔
 
 You can customize things with the following:
 
 Add your own configurations: Got some cool setup files? Drop them in the appropriate directory (e.g., ~/.config/nvim/) and run the stow process again.
 Edit the scripts: If you want to change which configurations are stowed, just tweak the install_dotfiles.sh script to fit your needs. It’s all yours!
 
-Troubleshooting 😱
+## Troubleshooting 😱
 Something’s not working? Here's the most common issues:
 
 stow is not installed: Did you follow the installation instructions above? If not, please do.
