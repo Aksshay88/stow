@@ -26,6 +26,8 @@ alias ls='eza -a --icons'
 alias ll='eza -al --icons'
 alias lt='eza -a --tree --level=1 --icons'
 alias update='sudo pacman -Syu'
+alias mk='ttyper'
+alias lazydocker='ld'
 alias bye='systemctl poweroff'
 alias hsearch='history | grep'
 alias logs='sudo journalctl -xe'
@@ -64,6 +66,11 @@ eval "$(pyenv init -)"
 if [[ $- == *i* ]]; then
     fastfetch
 fi
+
+
+#java-stuff
+export JAVA_HOME=/usr/lib/jvm/default
+export PATH=$JAVA_HOME/bin:$PATH
 
 # bun completions
 [ -s "/home/aksshay88/.bun/_bun" ] && source "/home/aksshay88/.bun/_bun"
